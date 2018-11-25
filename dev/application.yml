@@ -1,0 +1,9 @@
+server:
+  port: ${PORT:1336}
+  
+togglez:
+  enabled: true # Enable togglez for the application
+# feature-enums: # comma seperated list of fully qualified feature enum class names.
+# feature-manager-name: # the name of the feature manager.
+  features: # feature states. only needed if feature state are stored in application properties.
+    NOT_IN_USE : true
